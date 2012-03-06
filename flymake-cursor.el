@@ -3,9 +3,10 @@
 ;; Author     : ??
 ;; origin     : http://paste.lisp.org/display/60617,1/raw
 ;; Maintainer : Dino Chiesa <dpchiesa@hotmail.com>
+;;            : Donald Curtis <dcurtis@milkbox.net>
 ;; Created    : May 2011
-;; Modified   : May 2011
-;; Version    : 0.1.1
+;; Modified   : March 2012
+;; Version    : 0.1.2
 ;; Keywords   : languages mode flymake
 ;; X-URL      : http://www.emacswiki.org/emacs/flymake-cursor.el
 ;; Last-saved : <2011-May-09 16:35:59>
@@ -50,6 +51,14 @@
 ;;
 ;; You can, of course, put that in an eval-after-load clause.
 ;;
+;; -------------------------------------------------------
+;;
+;; Update 2012-03-06 by Donald Curtis
+;; --
+;; Added some autoload statements and the closing comment to make
+;; compatible with package.el parser.
+;;
+
 
 (require 'cl)
 
